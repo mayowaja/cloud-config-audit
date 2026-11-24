@@ -1,0 +1,5 @@
+[
+  {"id":"customer-exports","public_read":true,"encrypted":true,"access_logging":false},
+  {"id":"invoice-archive","public_read":false,"encrypted":true,"access_logging":true},
+  {"id":"media-backups","public_read":false,"encrypted":null,"access_logging":true}
+]
