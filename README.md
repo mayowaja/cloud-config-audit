@@ -1,6 +1,10 @@
 # Cloud Config Audit
 
-Review a saved inventory of storage resources against three example security policies. Every result includes the resource, the setting checked and the action an engineer can take. The tool works offline with Python 3.11+ and the standard library.
+Hi, I’m Mayowa 👋 I work in policy and I’m looking to move into cyber security, data and tech. I’m early in that journey, so I’m using this GitHub to share small projects and show what I can do with Python.
+
+This one grew out of my MSc dissertation on cloud misconfigurations. It reads a sample storage inventory and checks three things: who can read the data, whether it’s encrypted and whether access is logged. My favourite detail is the `unknown` result. If the inventory says nothing about encryption, that’s a good reason to ask for more evidence before calling it a failure.
+
+You can run this offline with Python 3.11+ and the standard library.
 
 ## Run the demo
 
